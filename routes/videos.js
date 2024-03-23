@@ -12,7 +12,7 @@ router.get("/", (req, res)=>{
     ))
 
     res.json(vidList); 
-})
+})  
 
 router.get('/video/:id', function (req, res) {
     const videoId = req.params.id;
