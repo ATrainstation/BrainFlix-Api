@@ -14,7 +14,7 @@ router.get("/", (req, res) => {
     title: item.title,
     channel: item.channel,
     image: item.image,
-  }));
+  })); 
   res.json(vidList);
 });
 
