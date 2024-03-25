@@ -34,9 +34,7 @@ router.post("/", (req, res) => {
 
   const { title, description } = req.body;
 
-  const id = uuidv4();
- 
-})  
+  const id = uuidv4();  
 
   const image = "https://storeys.com/media-library/image.jpg?id=34678009&width=1245&height=700&quality=90&coordinates=0%2C105%2C0%2C105";
 
